@@ -23,3 +23,4 @@ $(GOBIN)/golangci-lint:
 .PHONY: lint
 lint: $(GOBIN)/golangci-lint
 	$(GOBIN)/golangci-lint run --timeout 5m
+

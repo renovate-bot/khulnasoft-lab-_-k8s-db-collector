@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	version "github.com/khulnasoft-lab/go-pep440-version"
 	"github.com/goark/go-cvss/v3/metric"
+	version "github.com/khulnasoft-lab/go-pep440-version"
 )
 
 func TrimString(version string, trimValues []string) string {

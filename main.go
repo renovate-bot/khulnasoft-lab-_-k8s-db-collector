@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
+	"github.com/aquasecurity/vuln-list-update/git"
+	"github.com/aquasecurity/vuln-list-update/utils"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/cvedb"
 	c "github.com/khulnasoft-lab/k8s-db-collector/collectors/cvedb/utils"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi"
 	u "github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi/utils"
-	"github.com/khulnasoft-lab/vuln-list-update/git"
-	"github.com/khulnasoft-lab/vuln-list-update/utils"
 	"golang.org/x/xerrors"
 )
 
@@ -23,7 +23,7 @@ const (
 
 var (
 	target     = flag.String("target", "", "update target db (k8s-api,k8s-vulndb)")
-	githubRepo = flag.String("repo", "trivy-db-data", "github repo db (trivy-db-data,vuln-list-k8s)")
+	githubRepo = flag.String("repo", "vul-db-data", "github repo db (vul-db-data,vuln-list-k8s)")
 )
 
 func main() {

@@ -3,11 +3,12 @@ package cve
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/hashicorp/go-version"
 	"io"
 	"net/http"
 	"sort"
 	"strings"
+
+	"github.com/hashicorp/go-version"
 
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/cvedb/utils"
 )

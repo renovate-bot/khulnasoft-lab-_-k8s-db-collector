@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"log"
+	"path/filepath"
+
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi/lifecycle"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi/outdated"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi/utils"
-	"log"
-	"path/filepath"
 
 	"golang.org/x/xerrors"
 
