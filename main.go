@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/aquasecurity/vuln-list-update/git"
-	"github.com/aquasecurity/vuln-list-update/utils"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/cvedb"
 	c "github.com/khulnasoft-lab/k8s-db-collector/collectors/cvedb/utils"
 	"github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi"
 	u "github.com/khulnasoft-lab/k8s-db-collector/collectors/outdatedapi/utils"
+	"github.com/khulnasoft-lab/vuln-list-update/git"
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 	"golang.org/x/xerrors"
 )
 
