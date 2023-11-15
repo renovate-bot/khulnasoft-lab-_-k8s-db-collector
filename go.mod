@@ -10,7 +10,7 @@ require (
 	github.com/khulnasoft-lab/goversion v1.0.1
 	github.com/stretchr/testify v1.8.4
 	github.com/yuin/goldmark v1.5.6
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+	golang.org/x/xerrors 104605ab7028
 )
 
 require (
